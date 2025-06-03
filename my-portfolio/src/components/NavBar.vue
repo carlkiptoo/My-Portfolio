@@ -34,6 +34,15 @@
     height: 140px;
     width: auto;
 }
+@media (max-width: 768px) {
+    .navbar-container {
+        padding: 0 0.75rem;
+        height: 3.5rem;
+    }
+    .img {
+        height: 6rem;
+    }
+}
 
 
 </style>
