@@ -15,7 +15,7 @@
 
 <style scoped>
 .home {
-    min-height: 50rem;
+    min-height: 40rem;
     background-color: #f7f7f7;
     display: flex;
     align-items: center;
