@@ -67,5 +67,33 @@
 .img:active {
     transform: translateY(0);
 }
+@media (max-width: 768px) {
+    .home {
+        min-height: 20rem;
+        padding: 1.5rem 1rem;
+    }
+    .greeting {
+        font-size: 2.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .description {
+        font-size: 1.125rem;
+        margin-bottom: 2rem;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 0.75rem 1.75rem;
+    }
+}
+@media (max-width: 480px) {
+  .greeting {
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+  }
+}
+
 
 </style>
