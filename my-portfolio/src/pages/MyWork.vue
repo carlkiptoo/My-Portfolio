@@ -78,7 +78,7 @@ const projects = ref([
 
 <style scoped>
 .projects-container {
-    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    background: rgb(244, 241, 233);;
     padding: 5rem 2rem;
     min-height: 100vh;
 }

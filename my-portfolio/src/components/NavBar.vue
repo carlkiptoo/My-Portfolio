@@ -11,7 +11,7 @@
 <style scoped>  
 .navbar {
     width: 100%;
-    background-color: #f7f7f7;
+    background-color: rgb(244, 241, 233);;
     position: sticky;
     top: 1rem;
     z-index: 1000;

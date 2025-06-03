@@ -27,7 +27,7 @@
     align-items: center;
     justify-content: center;
     padding: 4rem 2rem;
-    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    background: rgb(244, 241, 233);;
     min-height: 4px;
 }
 .about-content {
