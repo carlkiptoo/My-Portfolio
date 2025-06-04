@@ -36,41 +36,44 @@
 
 <script setup>
 import { ref } from 'vue'
+import apartmentsImg from '../assets/Apartments.jpg'
+import wireframeImg from '../assets/wireframe.png'
+import healthImg from '../assets/health.jpg'
 
 const projects = ref([
 
     {
         id: 2,
-        title: "Task Management App",
-        description: "A collaborative task management application with real-time updates, team collaboration features, and project tracking. Built with modern technologies for optimal performance.",
-        image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
-        stack: ["React", "TypeScript", "Firebase", "Material-UI", "Socket.io"],
-        github: "https://github.com/kiptoo/task-manager"
+        title: "Apartment Management App",
+        description: "An app used by tenants and property managers to manage their apartments. Built with modern technologies for optimal performance.",
+        image: apartmentsImg,
+        stack: ["Dart", "Material-UI"],
+        github: "https://github.com/carlkiptoo/TenantApp"
     },
 
     {
         id: 2,
-        title: "Task Management App",
-        description: "A collaborative task management application with real-time updates, team collaboration features, and project tracking. Built with modern technologies for optimal performance.",
-        image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
-        stack: ["React", "TypeScript", "Firebase", "Material-UI", "Socket.io"],
-        github: "https://github.com/kiptoo/task-manager"
+        title: "App Management Backend",
+        description: "A backend service used by apartment app. It has several features such as user authentication, data storage, and real-time updates.",
+        image: apartmentsImg,
+        stack: ["Node.js", "Express.js"],
+        github: "https://github.com/carlkiptoo/AptManagement-Backend"
     },
     {
         id: 3,
-        title: "Weather Dashboard",
-        description: "A responsive weather dashboard that provides detailed weather information, forecasts, and interactive maps. Features location-based weather and customizable widgets.",
-        image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
-        stack: ["JavaScript", "Chart.js", "OpenWeather API", "CSS Grid", "PWA"],
-        github: "https://github.com/kiptoo/weather-dashboard"
+        title: "E-commerce Wireframe",
+        description: "A responsive wireframe for an e-commerce website. Easy to modify and use for any project.",
+        image: wireframeImg,
+        stack: ["Vue.js", "CSS", "TypeScript"],
+        github: "https://github.com/carlkiptoo/Wireframe"
     },
     {
         id: 4,
-        title: "Portfolio Website",
-        description: "A modern, responsive portfolio website showcasing projects and skills. Built with performance and accessibility in mind, featuring smooth animations and clean design.",
-        image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-        stack: ["Vue.js", "Nuxt.js", "SCSS", "GSAP", "Netlify"],
-        github: "https://github.com/kiptoo/portfolio-website"
+        title: "Health Info System",
+        description: "This is a health information backend that enables healthcare providers to manage patient records,assign them to programs, and track their progress.",
+        image: healthImg,
+        stack: ["Node.js", "Express.js"],
+        github: "https://github.com/carlkiptoo/Health-Info-Sys"
     }
 ])
 
@@ -80,7 +83,7 @@ const projects = ref([
 .projects-container {
     background: rgb(244, 241, 233);;
     padding: 5rem 2rem;
-    min-height: 100vh;
+    min-height: 10vh;
 }
 
 .projects-content {

@@ -3,7 +3,7 @@
     <div class="footer-content">
       <div class="social-links">
         <a 
-          href="https://linkedin.com/in/kiptoo-kirui" 
+          href="https://www.linkedin.com/in/kiptookirui" 
           target="_blank" 
           rel="noopener noreferrer" 
           class="social-link linkedin"
@@ -15,7 +15,7 @@
         </a>
 
         <a 
-          href="https://github.com/kiptoo-kirui" 
+          href="https://github.com/carlkiptoo" 
           target="_blank" 
           rel="noopener noreferrer" 
           class="social-link github"
@@ -27,7 +27,7 @@
         </a>
 
         <a 
-          href="mailto:kiptoo.kirui@example.com" 
+          href="mailto:kiptoocarlos0@gmail.com"
           class="social-link email"
           aria-label="Send Email"
         >

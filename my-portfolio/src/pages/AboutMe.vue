@@ -4,17 +4,17 @@
             <div class="about-text">
                 <h1 class="about-title">About Kiptoo Kirui</h1>
                 <div class="about-description">
-                    <p class="intro">Hi, I am Kiptoo. I am a Frontend Developer and a UI/UX Designer. I am passionate about creating
-                        user-friendly and visually appealing websites and applications.</p>
-                    <p class="education">I have a Bachelor's degree in Computer Science from the University of Lagos. I have also
-                        completed a
-                        Master's degree in Computer Science from the University of Lagos.</p>
+                    <p class="intro">I am a fullstack developer who loves building clean, responsive, and user-focused
+                        web applications. From crafting intuitive frontends to designing solid backend systems, I enjoy
+                        working across the stack to bring ideas to life. I'm always exploring better ways to write
+                        maintainable code and build things that actually make a difference.
+                    </p>
+                    <p class="education">I recently completed a Bachelor's degree in Mathematics and Computer Science from Jomo Kenyatta University of Agriculture and Technology.(Currently awaiting graduation)</p>
                 </div>
             </div>
             <div class="about-image">
                 <div class="image-wrapper">
-                    <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379004.jpg&fm=jpg"
-                        alt="Profile" />
+                    <img src="../assets/mee.jpeg" alt="Profile" />
                 </div>
             </div>
         </div>
@@ -27,9 +27,11 @@
     align-items: center;
     justify-content: center;
     padding: 4rem 2rem;
-    background: rgb(244, 241, 233);;
+    background: rgb(244, 241, 233);
+    ;
     min-height: 4px;
 }
+
 .about-content {
     display: flex;
     align-items: center;
@@ -45,6 +47,7 @@
     min-width: 300ox;
     max-width: 550px;
 }
+
 .about-title {
     font-size: 2.5rem;
     font-weight: 700;
@@ -53,6 +56,7 @@
     line-height: 1.2;
     position: relative;
 }
+
 .about-title::after {
     content: '';
     position: absolute;
@@ -63,9 +67,11 @@
     background: linear-gradient(90deg, #3b82f6 0%, #1d4ed8 100%);
     border-radius: 2px;
 }
+
 .about-description {
     space-y: 1.5rem;
 }
+
 .intro {
     font-size: 1.125rem;
     color: #475569;
@@ -73,6 +79,7 @@
     margin-bottom: 1.5rem;
     font-weight: 500;
 }
+
 .education {
     font-size: 1rem;
     color: #64748b;
@@ -96,11 +103,13 @@
     display: flex;
     justify-content: center;
 }
+
 .image-wrapper {
     position: relative;
     width: 100%;
     max-width: 350px;
 }
+
 .image-wrapper::before {
     content: '';
     position: absolute;
@@ -108,7 +117,7 @@
     left: 1rem;
     right: -1rem;
     bottom: -1rem;
-    background: linear-gradient(135deg,  #3b82f6, #8b5cf6);
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
     border-radius: 1rem;
     z-index: -1;
     opacity: 0.1;
@@ -122,6 +131,7 @@
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     transition: transform 0.3s ease-in-out;
 }
+
 .about-image img:hover {
     transform: translateY(-5px);
 }
@@ -137,17 +147,21 @@
         gap: 2.5rem;
         text-align: center;
     }
+
     .about-title {
         font-size: 2rem;
         margin-bottom: 1.5rem;
     }
+
     .about-title::after {
         left: 50%;
         transform: translateX(-50%);
     }
+
     .intro {
         font-size: 1rem;
     }
+
     .about-image img {
         height: 350px;
     }
@@ -161,9 +175,11 @@
     .about-title {
         font-size: 1.75rem;
     }
+
     .about-image img {
         height: 300px;
     }
+
     .image-wrapper::before {
         top: 0.5rem;
         left: 0.5rem;
