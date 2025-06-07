@@ -9,7 +9,7 @@
                         working across the stack to bring ideas to life. I'm always exploring better ways to write
                         maintainable code and build things that actually make a difference.
                     </p>
-                    <p class="education">I recently completed a Bachelor's degree in Mathematics and Computer Science from Jomo Kenyatta University of Agriculture and Technology.(Currently awaiting graduation)</p>
+                    <p class="education">I recently completed a Bachelor's degree in Mathematics and Computer Science from Jomo Kenyatta University of Agriculture and Technology.</p>
                 </div>
             </div>
             <div class="about-image">
